@@ -50,9 +50,3 @@ ScrollReveal().reveal('.home-content, .heading', {origin: 'top'});
 ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', {origin: 'bottom'});
 ScrollReveal().reveal('.home-content h1, .about-image', {origin: 'left'});
 ScrollReveal().reveal('.home-content p, .about-content', {origin: 'right'});
-
-//Default Gulp Task
-exports.default = series(scssTask, js Task, browserSyncServe, watchTask);
-
-//Build Gulp Task
-exports.build = series(scssTask, JsTask);
